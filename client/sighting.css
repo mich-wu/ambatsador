@@ -1,0 +1,99 @@
+.button{
+  background-color: #be9b7b;
+  border-radius: 15px;
+  border-width: 2px;
+  color:black;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: min-content;
+  margin: 10px;
+}
+
+.sign-in-button{
+  background-color: #be9b7b;
+  border-radius: 15px;
+  border-width: 2px;
+  color:black;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: max-content;
+  margin: 10px;
+}
+
+
+
+.title-ribbon{
+  display: flex;
+  justify-content: space-between;
+}
+
+.title{
+  width:50%;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.image{
+  width: 500px;
+  margin-right: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.user{
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome{
+  text-align: end;
+  color:orange;
+  font-size: 30px;
+}
+
+.button-container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-body{
+  display:flex;
+  flex-direction: row;
+}
+
+.comment-form{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.text-form{
+  color:black;
+  flex-grow: 1;
+  height: fit-content;
+  margin: 5px;
+}
+
+.comments-body{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.comments-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.comment{
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #be9b7b;
+  width: 100%;
+}

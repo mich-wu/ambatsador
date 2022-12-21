@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-y-to-p {
+  background-image: linear-gradient(135deg, #f1fa8c, #ffe57a, #ffcf74, #ffb979, #ffa286, #ff8f99, #ff80af, #ff79c6);
+}
